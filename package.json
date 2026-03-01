@@ -1,0 +1,17 @@
+{
+  "name": "problem-solving",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "solve": "tsx",
+    "test": "vitest run",
+    "watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "~5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
