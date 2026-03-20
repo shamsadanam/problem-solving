@@ -4,14 +4,21 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "solve": "tsx",
     "test": "vitest run",
     "watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "ui": "pnpm vitest --ui"
   },
   "devDependencies": {
     "@types/node": "^25.3.3",
     "typescript": "~5.9.3",
-    "vitest": "^4.0.18"
+    "vitest": "^4.0.18",
+    "vite": "^7.3.1",
+    "@vitest/ui": "^4.0.18",
+    "tsx": "^4.21.0"
   }
 }
